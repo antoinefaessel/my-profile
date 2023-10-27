@@ -1,0 +1,94 @@
+
+body {
+	background: rgb(218,218,218);
+
+}
+
+h2 {
+    font-family: "Helvetica", sans-serif;
+    color:rgb(255,255,255);
+    text-align: center;
+}
+
+a {
+    color: rgb(29, 68, 84);
+    text-decoration: auto;
+    text-align: center;
+}
+a:hover{
+	color: rgb(255,255,255);
+}
+
+h1{
+	font-size: 	45px;
+	font-style: oblique;
+	color:rgb(255,255,255);
+	font-weight: 400;
+	font-variant: small-caps;
+}
+p{
+	text-align: justify;
+	font-weight: bold;
+}
+.sous{
+	font-variant: small-caps;
+	text-align: center;
+}
+img {
+  display: block;
+  width: 30%;
+  margin: auto;
+}
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+.card-white {
+	background: rgb(147,166,178);
+	border-radius: 10px;
+	box-shadow: rgba(0,0,0,0.1);
+	padding-bottom: 15px;
+}
+.img-circle {
+  border-radius: 50%;
+  text-align: center;
+}
+.text-center {
+  text-align: center;
+}
+.card-white ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card-white li {
+    display: inline;
+    margin-right: 10px; /* Espace entre les icônes */
+}
+.card-white {
+    background: rgb(147, 166, 178);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    padding-bottom: 15px;
+    text-align: center; /* Ajout de la propriété pour centrer les icônes */
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
